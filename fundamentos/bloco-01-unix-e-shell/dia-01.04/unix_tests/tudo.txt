@@ -1,0 +1,12 @@
+Fodeu
+red
+green
+blue
+brown
+black
+orange
+morango
+laranja
+banana
+maca
+tomate

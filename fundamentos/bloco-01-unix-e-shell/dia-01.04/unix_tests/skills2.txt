@@ -1,0 +1,9 @@
+Internet
+Unix
+Bash
+HTML
+CSS
+Kernel
+Shell
+Hardware
+Software

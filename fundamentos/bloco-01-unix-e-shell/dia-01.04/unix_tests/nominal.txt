@@ -1,0 +1,10 @@
+banana
+black
+blue
+brown
+green
+laranja
+maca
+morango
+orange
+red
