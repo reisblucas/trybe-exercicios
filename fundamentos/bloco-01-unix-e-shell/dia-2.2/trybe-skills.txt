@@ -5,3 +5,4 @@ O que eu aprendi no Bloco 1 ate agora:
 - Git
 - HTML
 - CSS
+- JavaScript
