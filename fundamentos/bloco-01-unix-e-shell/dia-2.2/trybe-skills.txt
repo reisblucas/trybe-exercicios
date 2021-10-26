@@ -3,3 +3,6 @@ O que eu aprendi no Bloco 1 ate agora:
 - Unix
 - Bash
 - Git
+- HTML
+- CSS
+- JavaScript
