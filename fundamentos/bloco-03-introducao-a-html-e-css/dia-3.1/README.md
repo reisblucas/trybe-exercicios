@@ -24,4 +24,5 @@ Tags utilizadas:
 -   <img src="~/foto" width="Ypx" alt="descrição"; 
 -   <hr; <a href="https://site" target="" ou target="_blank"</a; 
 -   <a href="#id"<a.
-
+    
+    _Há divergência na escrita entre < e > para poder subir o arquivo e ficar legível no README_
