@@ -1,0 +1,42 @@
+.title-center {
+    text-align: center;
+    z-index: 1;
+
+}
+
+.super-mario {
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: -82px;
+  }
+  
+  .goomba {
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 350px;
+    margin-left: 380px;
+  }
+  
+  .baloon {
+    position: absolute;
+    margin-left: 900px;
+    z-index: 3;
+  }
+  
+  .speach {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 920px;
+    margin-top: 70px;
+    z-index: 4;
+  }
+  
+  .bowser {
+    width: 700px;
+    margin-left: 1100px;
+    position: absolute;
+    z-index: 2;
+  }
