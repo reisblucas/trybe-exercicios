@@ -1,0 +1,65 @@
+h1, p {
+    text-align: center;
+}
+
+.div1:hover {
+    width: fit-content;
+    background-color: blanchedalmond;
+}
+
+.div2:hover {
+    width: fit-content;
+    background-color: rgb(205, 255, 222);
+}
+
+.div3:hover {
+    width: fit-content;
+    background-color: rgb(255, 211, 205);
+}
+
+.div4:hover {
+    width: fit-content;
+    background-color: rgb(140, 118, 201);
+}
+
+.div5:hover {
+    width: fit-content;
+    background-color: rgb(231, 162, 228);
+}
+
+h3:active {
+    color: yellowgreen;
+}
+
+.center-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    background-color: yellow;
+    border-radius: 20%;;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-text {
+    margin-left: 50px;
+    
+}
+
+.h3-margin {
+    margin: 50px 70px;
+}
+
+/* Tags H3 ímpares com texto em itálico */
+.h3-I {
+    font-style: italic;
+
+}
+
+.h3-P {
+    margin-left: 30px;
+}
