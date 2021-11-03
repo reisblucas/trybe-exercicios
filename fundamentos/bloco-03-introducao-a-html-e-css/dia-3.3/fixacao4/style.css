@@ -1,0 +1,65 @@
+
+
+ol li {
+    width: fit-content;
+    background-color: yellow;
+}
+
+ol li:nth-child(even) {
+    color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+    font-size: 40px;    
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+    width: fit-content;
+} 
+
+ul, li > em {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul.topLanguages :nth-last-child(n+3) {
+    color: aqua;
+}
+
+/* Bônus */
+
+.color {
+    color: black;
+    text-decoration:  none;
+
+}
+
+.stack :hover {
+    background-color:orange;
+    
+}
+
+.w3s :hover {
+    background-color: rgb(67, 243, 67);
+}
+
+.mdn :hover {
+    background-color:black;
+    color: white;
+}
+
+.devdocs :hover {
+    background-color: yellow;
+}
+
+.trybe :hover {
+    background-color:green;
+}
+
