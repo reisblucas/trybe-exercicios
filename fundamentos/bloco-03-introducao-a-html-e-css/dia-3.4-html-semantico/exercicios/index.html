@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width">
     <title>Stomatopoda</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -14,9 +14,9 @@
     <!--insira os elementos aqui-->
     <header>
         <nav>
-            <li><a href="site.com/home"></a> Página Inicial</li>
-            <li><a href="site.com/sobre"></a> Sobre</li>
-            <li><a href="#contato"></a> Contato</li>
+            <li></a> Página Inicial</li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
         </nav>
     </header>
 
@@ -25,10 +25,10 @@
         <div class="majorContainer">
             <main >
                 <section>
-                    <h2>Stomatopoda</h2>
-                    <section class="principalContainer">
+                    <h2>Fatos sobre o Stomatopoda</h2>
+                    <section class="principalContainer principalContainer-head">
                         <article>
-                            <h3>Fatos sobre o Stomatopoda</h3>
+                            <h3 id="sobre">Sobre</h3>
                             <p>Stomatopoda (ou estomatópode), chamados popularmente de tamarutacas ou de lacraias-do-mar no Brasil, é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice subquelado, lembrando uma pata de louva-a-deus.</p>
                         </article>
                         
@@ -87,13 +87,13 @@
                     </section>
 
                     <section class="principalContainer">
-                        <h2>Veja esse vídeo do Stomatopeda:</h2>
+                        <h2>Confira esse vídeo para entender mais sobre o Stomatopeda:</h2>
                         <article class="videoAlignment">
                             <iframe src="https://www.youtube.com/embed/E0Li1k5hGBE" width="640" height="360" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </article>
                     </section>
 
-                    <section class="principalContainer">
+                    <section class="principalContainer principalContainer-foot">
                         <h2 style="font-style: italic;">Ref. Bibliográficas</h2>
                         <article>
                             <a href="https://pt.wikipedia.org/wiki/Stomatopoda#h5o-4">https://pt.wikipedia.org/wiki/Stomatopoda#h5o-4</a>
@@ -112,14 +112,24 @@
             </main>
 
             <footer>
-                <p>Conteúdo compilado por Lucas Barbosa dos Reis para atividade sobre HTML Semântico, enquanto estudante da Trybe. </p> 
-                <p>3 de Novembro de 2021.</p>
+                <div>
+                    <h2 id="contato">Contato</h2>
+                    
+                    <ul class="listStyle">
+                        <li><a href="https://github.com/byneur4l"><img src="images/github-logo.png" alt="Mini logo do GitHub" class="logoAlignment"> GitHub</a></li>
+                        <li><img src="images/linkedin-logo.png" alt="Mini logo do Linkedin" class="logoAlignment"> Linkedin</li>
+                        <li>E-mail:<em> reisblcs@gmail.com </em></li>
+                    </ul>
+                </div>
+                <p>Conteúdo compilado por Lucas Barbosa dos Reis, enquanto aluno da Trybe, para atividade sobre HTML Semântico. </p> 
+                <p>3 de Novembro de 2021</p>
             </footer>
         </div>
         <div class="asideContainer">
             <aside class="asideAlignment">
                 <div>
-                    <table> <!--Usei a documentação da W3 e da MDN-->
+                    <table><!--Usei a documentação da W3 e da MDN-->
+                        <caption style="display: none;">Tabela do Stomatopeda</caption>
                         <thead>
                             <tr>
                                 <th colspan="2">Stomatopoda <br>
