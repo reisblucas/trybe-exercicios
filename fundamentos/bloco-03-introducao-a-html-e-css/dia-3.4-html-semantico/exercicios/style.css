@@ -1,0 +1,87 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 50px;
+}
+
+header {
+    text-align: center;
+}
+    nav li {
+        display: inline-block;
+        margin: ;
+        padding: 20px;
+    }
+
+.bodyContainer {
+    background-color:white;
+    padding: 2em;
+    position: absolute;
+}
+
+.majorContainer {
+    position: relative;
+    background-color:rgb(245, 245, 245);
+    display: inline-block;
+    margin-left: 2em;
+    width: 76%;
+    border-radius: 10px;
+
+}
+    /* Está dentro do major container, são as seções de artigos */
+    .principalContainer {
+        margin: 1em;
+        padding: 1em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        text-align: justify;
+        
+    }
+
+.asideContainer {
+    position: fixed;
+    padding: 1em;
+    display: inline-block;
+    background-color: rgb(197, 248, 213);
+    border: 2px solid;
+    margin-left: 5em;
+    border-radius: 10px;
+}
+
+/* Faz com que o meu alinhamento da box, separado em div, ocupe o espaço seguindo o padrão de texto acima.*/
+.asideAlignment { 
+    width: min-content;
+}
+
+.tableImage {
+    width: 250px;
+}
+
+.olhosAlignment {
+    text-align: center;
+    margin: 2em;
+}
+
+.videoAlignment {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+
+
+
