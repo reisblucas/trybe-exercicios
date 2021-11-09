@@ -37,8 +37,8 @@ for (let i = 0; i < numbers.length; i+=1) {
             multiplyNext = numbers[i] * numbers[i+1];
             resultado.push(multiplyNext);
         } else {
-            multiplyPer2 = numbers[i] * 2;
-            resultado.push(multiplyPer2);
+            multipliedBy2 = numbers[i] * 2;
+            resultado.push(multipliedBy2);
         }
 }
 
