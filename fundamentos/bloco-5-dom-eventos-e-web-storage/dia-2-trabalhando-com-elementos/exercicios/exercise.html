@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        let h1Element = document.createElement('h1');
+        h1Element.innerText = 'Exercício 5.2 - JavaScript DOM';
+        document.body.appendChild(h1Element);
+
+        let mainConteiner = document.createElement('main');
+        mainConteiner.className = 'main-content';
+        document.body.appendChild(mainConteiner);
+
+        let sectionConteiner = document.createElement('section');
+        sectionConteiner.className = 'center-content';
+        mainConteiner.appendChild(sectionConteiner);
+
+        let paragraphCreator = document.createElement('p');
+        paragraphCreator.innerText = 'Hoje é dia de 203 only e tororó no fortnite';
+        sectionConteiner.appendChild(paragraphCreator);
+
+        let sectionLeft = document.createElement('section');
+        sectionLeft.className = 'left-content';
+        mainConteiner.appendChild(sectionLeft);
+
+        let sectionRight = document.createElement('section');
+        sectionRight.className = 'right-content';
+        mainConteiner.appendChild(sectionRight);
+
+        let imageContent = document.createElement('img');
+        imageContent.className = 'small-image';
+        imageContent.src = 'https://picsum.photos/200';
+        sectionLeft.appendChild(imageContent);
+
+        let array = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+        let unordereList = document.createElement('ul');
+        unordereList.className = 'list';
+        for (let i = 0; i < array.length; i += 1) {
+            let listContent = document.createElement('li');
+            listContent.innerText = array[i];
+            unordereList.appendChild(listContent);
+        }
+        sectionRight.appendChild(unordereList);
+
+        
+        for (let i = 0; i < 3; i += 1) {
+            let h3Element = document.createElement('h3');
+            h3Element.innerText = 'hu3';
+            mainConteiner.appendChild(h3Element);
+        }
+        
+
+    </script>
+  </body>
+</html>
