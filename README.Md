@@ -9,7 +9,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ## Fundamentos do Desenvolvimento Web
 
 ### Bloco 1: Unix & Bash
--:white_check_mark:1.3 - Fundamentos do Desenvolvimento Web
--:white_check_mark:1.3 - Introdução - Unix & Shell
--:white_check_mark:1.3 - Unix & Bash - Parte 1
--:white_check_mark:1.4 - Unix & Bash - Parte 2
+- :white_check_mark:1.3 - Fundamentos do Desenvolvimento Web
+- :white_check_mark:1.3 - Introdução Unix & Shell
+- :white_check_mark:1.3 - Unix & Bash Parte 1
+- :white_check_mark:1.4 - Unix & Bash Parte 2
