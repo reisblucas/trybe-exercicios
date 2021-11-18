@@ -94,16 +94,33 @@
             let listContent = document.createElement('li');
             listContent.innerText = array[i];
             unordereList.appendChild(listContent);
+  
         }
         sectionRight.appendChild(unordereList);
 
-        
         for (let i = 0; i < 3; i += 1) {
             let h3Element = document.createElement('h3');
-            h3Element.innerText = 'hu3';
+            h3Element.innerText = '3 tags h3';
             mainConteiner.appendChild(h3Element);
+            h3Element.className = 'description'; // bônus
         }
         
+        // bônus
+        mainConteiner.style.padding = '1em' // não requisitado
+
+        h1Element.className = 'title';
+
+        mainConteiner.removeChild(sectionLeft);
+
+        sectionRight.style.marginRight = 'auto';
+        sectionRight.style.marginTop = '2em'; // não requisitado
+        sectionRight.style.marginBottom = '2em'; // não requisitado
+
+        sectionConteiner.style.backgroundColor = 'green';
+
+        let sizeList = unordereList.querySelectorAll('li').length;
+        let listRemove = unordereList.querySelectorAll('li');
+        unordereList.removeChild(listRemove[sizeList - 1]) && unordereList.removeChild(listRemove[sizeList - 2]);
 
     </script>
   </body>
