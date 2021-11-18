@@ -20,7 +20,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 2.2 - Git & GitHub - Entendendo os comandos
 - [X] 2.3 - Internet - Entendendo como ela funciona
 
-### Bloco 3: Introdução ao HTML e CSS
+### Bloco 3: Introdução ao HTML e CSS :white_check_mark:
 
 - [X] 3.1 - HTML & CSS - Estruturas de página
 - [X] 3.2 - HTML & CSS - Primeiros passos em CSS
@@ -28,7 +28,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 3.4 - HTML Semântico
 - [X] 3.5 - Projeto - Lessons Learned
 
-### Bloco 4: Introdução à JavaScript e Lógica de Programação 
+### Bloco 4: Introdução à JavaScript e Lógica de Programação :white_check_mark:
 
 - [X] 4.1 - JavaScript - Primeiros passos
 - [X] 4.2 - JavaScript - Array e loop For
@@ -36,7 +36,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 4.4 - JavaScript - Objetos e funções
 - [X] 4.5 - Projeto - Playground Functions
 
-### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+### Bloco 5: JavaScript: DOM, Eventos e Web Storage :hourglass_flowing_sand:
 
 - [X] 5.1 - JavaScript - DOM e seletores
 - [X] 5.2 - JavaScript - Trabalhando com elementos
