@@ -87,34 +87,39 @@
 
 // Exercicio 2.5
 
-// let array = [2, 3, 2, 5, 8, 2, 3, 5, 5, 5, 6, 7];
+let array = [2, 3, 2, 5, 8, 2, 3, 5, 5, 5, 6, 6, 6, 6, 6, 7];
 
-// function highestRepeat() {
-//     let object = {};
-//     for (let i = 0; i < array.length; i += 1) {
-//         if (object[array[i]]) {
-//             object[array[i]] += 1
-//         } else {
-//             object[array[i]] = 1
-//         }
-//     }
-//     let objectLength = Object.keys(object).length;
-//     let objectReversed = Object.keys(object).reverse()
-//     console.log(objectLength);
-//     console.log(objectReversed)
+function highestRepeat() {
+    let object = {};
+    for (let i = 0; i < array.length; i += 1) {
+        if (object[array[i]]) {
+            object[array[i]] += 1
+        } else {
+            object[array[i]] = 1
+        }
+    }
+    let objectLength = Object.keys(object).length;
+    console.log(objectLength)
 
-//     console.log(objectReversed[0] == 8)
-//     // limite de 10 no contador
-//     let resultado = 0;
-//     for (let i = 0; i < 10; i += 1) {
-//         if (object[i] > object[i + 1]) {
-//             resultado = object[i];
-//         } 
-//     }
+    let objectReversed = Object.keys(object).reverse()
+    console.log(objectLength);
+    console.log(objectReversed)
+
+    console.log(objectReversed[0] == 8)
+    limite de 10 no contador
+
+    console.log(object)
+    let resultado = 0;
+    for (let i = 0; i < 10; i += 1) {
+        if (object[i] > object[i + 1]) {
+            resultado = object[i];
+            console.log(resultado)
+        } 
+    }
     
-//     return resultado;
-// }
-// console.log(highestRepeat());
+    return resultado;
+}
+console.log(highestRepeat(array));
 
 // Exercicio 2.6
 

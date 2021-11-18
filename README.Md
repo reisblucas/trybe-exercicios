@@ -1,4 +1,6 @@
-Este repositorio contem todas as atividades de aprendizagem desenvolvidas por Lucas Barbosa dos Reis enquanto estudava na Trybe.
+# Trybe
+
+Este repositorio contem todas as atividades de aprendizagem desenvolvidas por _[Lucas Barbosa dos Reis]()_ enquanto estudava na _[Trybe](https://www.betrybe.com/)_.
 
 A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho.
 
