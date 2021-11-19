@@ -70,4 +70,4 @@ h3Selector.addEventListener ('mouseout', function (event) {
 }
 
 
-
+h3Selector.addEventListener('click', )
