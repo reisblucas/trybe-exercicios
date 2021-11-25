@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="liveLectureStyle.css">
     <title>Forms TEDx Trybe</title>
 </head>
 <body>
-    <div id="headerContainer">
+    <div class="headerContainer">
         <header>
             <h1>Send my Conference</h1>
             <p><em>Quer palestrar na nossa conferencia? Preencha o nosso formulário</em></p>
@@ -15,23 +16,27 @@
     </div>
     
     <main>
-        <form action="" method="get">
-            <div>
+        <form action="" method="get" id='formContainer'>
+            <div class="form-row">
+                <div class="marginTextInput">
                 <label for="full-name-id">Nome</label>
+                </div>
                 <input type="text" name="full-name" id="full-name-id">
             </div>
-            
-            <div>
-                <fieldset>
+
+            <div class="form-row">
+                <fieldset class="legacy-form-row">
                     <legend>Conference subject:</legend>
-                    <input type="radio" name="talk-type" value="main-stage" id="main-stage">
-                    <label for="main-stage">Main stage</label>
-                    <input type="radio" name="talk-type" value="workshop" id="workshop">
-                    <label for="workshop">Workshop</label>
+                    <div class="insideFieldset">
+                        <input type="radio" name="talk-type" value="main-stage" id="main-stage">
+                        <label for="main-stage">Main stage</label>
+                        <input type="radio" name="talk-type" value="workshop" id="workshop">
+                        <label for="workshop">Workshop</label>
+                    </div> 
                 </fieldset>
             </div>
             
-            <div>
+            <div class="form-row">
                 <label for="">T-shirt size:
                     <select name="t-shirt size" id="t-shirtContainer">
                         <option value="xp">XP</option>
@@ -44,18 +49,19 @@
                 </label>
             </div>
 
-            <div>
-            <label for="resume-your-conference">Your conference resume:</label>
-            <br>
-            <textarea name="resume" id="resume-your-conference" placeholder="Resume your conference here" cols="100" rows="10" maxlength="1500"></textarea>
+            <div class="form-row">
+                <div class="marginTextInput">
+                    <label for="resume-your-conference">Your conference resume:</label>
+                </div>
+                <textarea name="resume" id="resume-your-conference" placeholder="In my conference here I will teach..." cols="78" rows="10" maxlength="1500"></textarea>
             </div>
             
-            <div>
+            <div class="centralize">
             <input type="radio" name="availability" value="true" id="availability-input" required>
             <label for="availability-input">I confirm that I will be available on the date </label>
             </div>
 
-            <div>
+            <div class="centralize">
             <button type="submit">Send</button>
             </div>
         </form>
