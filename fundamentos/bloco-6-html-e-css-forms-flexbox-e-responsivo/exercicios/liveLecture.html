@@ -7,24 +7,57 @@
     <title>Forms TEDx Trybe</title>
 </head>
 <body>
-    <header>
-        <h1>Send my Conference</h1>
-        <p><em>Quer palestrar na nossa conferencia? Preencha o nosso formulário</em></p>
-    </header>
+    <div id="headerContainer">
+        <header>
+            <h1>Send my Conference</h1>
+            <p><em>Quer palestrar na nossa conferencia? Preencha o nosso formulário</em></p>
+        </header>
+    </div>
+    
     <main>
         <form action="" method="get">
-            <label for="full-name-id">Nome</label>
-            <input type="text" name="full-name" id="full-name-id" required>
+            <div>
+                <label for="full-name-id">Nome</label>
+                <input type="text" name="full-name" id="full-name-id">
+            </div>
             
-            <fieldset>
-                <legend>Conference subject:</legend>
-                <input type="radio" name="talk-type" id="main-stage">
-                <label for="main-stage">Main stage</label>
-                <input type="radio" name="talk-type" id="workshop">
-                <label for="workshop">Workshop</label>
-            </fieldset>
+            <div>
+                <fieldset>
+                    <legend>Conference subject:</legend>
+                    <input type="radio" name="talk-type" value="main-stage" id="main-stage">
+                    <label for="main-stage">Main stage</label>
+                    <input type="radio" name="talk-type" value="workshop" id="workshop">
+                    <label for="workshop">Workshop</label>
+                </fieldset>
+            </div>
             
-            <textarea name="resume" id="resume-your-conference" cols="30" rows="10"></textarea>
+            <div>
+                <label for="">T-shirt size:
+                    <select name="t-shirt size" id="t-shirtContainer">
+                        <option value="xp">XP</option>
+                        <option value="p">P</option>
+                        <option value="m">M</option>
+                        <option value="g">G</option>
+                        <option value="xg">XG</option>
+                        <option value="xxg">XXG</option>
+                    </select>
+                </label>
+            </div>
+
+            <div>
+            <label for="resume-your-conference">Your conference resume:</label>
+            <br>
+            <textarea name="resume" id="resume-your-conference" placeholder="Resume your conference here" cols="100" rows="10" maxlength="1500"></textarea>
+            </div>
+            
+            <div>
+            <input type="radio" name="availability" value="true" id="availability-input" required>
+            <label for="availability-input">I confirm that I will be available on the date </label>
+            </div>
+
+            <div>
+            <button type="submit">Send</button>
+            </div>
         </form>
     </main>
 </body>
