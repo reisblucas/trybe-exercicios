@@ -88,15 +88,15 @@
 
         let array = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
 
-        let unordereList = document.createElement('ul');
-        unordereList.className = 'list';
+        let unorderedList = document.createElement('ul');
+        unorderedList.className = 'list';
         for (let i = 0; i < array.length; i += 1) {
             let listContent = document.createElement('li');
             listContent.innerText = array[i];
-            unordereList.appendChild(listContent);
+            unorderedList.appendChild(listContent);
   
         }
-        sectionRight.appendChild(unordereList);
+        sectionRight.appendChild(unorderedList);
 
         for (let i = 0; i < 3; i += 1) {
             let h3Element = document.createElement('h3');
@@ -118,9 +118,9 @@
 
         sectionConteiner.style.backgroundColor = 'green';
 
-        let sizeList = unordereList.querySelectorAll('li').length;
-        let listRemove = unordereList.querySelectorAll('li');
-        unordereList.removeChild(listRemove[sizeList - 1]) && unordereList.removeChild(listRemove[sizeList - 2]);
+        let sizeList = unorderedList.querySelectorAll('li').length;
+        let listRemove = unorderedList.querySelectorAll('li');
+        unorderedList.removeChild(listRemove[sizeList - 1]) && unorderedList.removeChild(listRemove[sizeList - 2]);
 
     </script>
   </body>
