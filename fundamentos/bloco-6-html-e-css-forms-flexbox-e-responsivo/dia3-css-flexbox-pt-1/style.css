@@ -1,0 +1,49 @@
+#flexbox {
+    display: flex;
+}
+
+#flexbox p {
+    border: 2px solid;
+    padding: 5px;
+    font-size: 20px;
+}
+
+div {
+    width: 400px;
+    min-height: 60px;
+    border: 2px solid violet;
+    margin: 20px;
+}
+
+p {
+    background-color: white;
+}
+
+.box-container {
+    background-color: #0fa36b;
+    display: flex;
+    /* ADICIONE AQUI SEUS TESTES */
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: space-around;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    text-align: center;
+    
+    
+    
+    
+}
+
+.box {
+    color: #9069EF;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #232525;
+    font-size: 50px;
+    height: 60px;
+    margin: 10px 5px;
+    text-align: center;
+    width: 30%;
+    
+}
+
