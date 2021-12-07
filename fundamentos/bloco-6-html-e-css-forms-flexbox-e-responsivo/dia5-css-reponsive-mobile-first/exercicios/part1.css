@@ -1,0 +1,32 @@
+@media only screen and ( max-width : 600px ) {
+
+    h1 {
+        font-size: 50px !important; 
+    }
+}
+
+body {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.margin {
+    margin: 0 30px;
+}
+
+h2, figcaption {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    text-align: center;
+    margin: 50px auto;
+}
