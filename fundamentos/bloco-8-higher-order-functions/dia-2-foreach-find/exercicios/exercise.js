@@ -61,26 +61,8 @@ const books = [
   },
 ];
 
-// const bookOrderedByReleaseYearsDesc = arr => {
-//   arr.forEach((element, index) => {
-//     console.log(element.)
-//   })
-//   return 
-// }
 
-books.sort((a, b) => {
-  if (a.releaseYear < b.releaseYear) {
-    return 1;
-  }
-  if (a.releaseYear > b.releaseYear) {
-    return -1;
-  }
-  return 0;
-});
-
-console.log(books)
 
 // Adicione o código do exercício aqui:
 
 module.exports = books;
-
