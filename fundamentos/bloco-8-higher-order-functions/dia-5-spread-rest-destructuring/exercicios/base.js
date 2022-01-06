@@ -14,10 +14,7 @@ rectangles.forEach((rectangle) => {
 
 // exercicio 2
 
-const sum = (...numbers) => {
-  const result = numbers.reduce((acc, number) => acc += number);
-  return console.log(result);
-};
+const sum = (...numbers) => console.log(numbers.reduce((acc, number) => acc += number));
 
 sum(1, 25, -4, -10, 32, 80);
 
@@ -50,8 +47,92 @@ console.log(personLikes(alex)); // 'Alex is 26 years old and likes fly fishing.'
 console.log(personLikes(gunnar)); // 'Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.'
 
 // exercicio 4
+
+const people = [
+  {
+    name: 'Nicole',
+    bornIn: 1992,
+    nationality: 'Australian',
+  },
+  {
+    name: 'Harry',
+    bornIn: 2008,
+    nationality: 'Australian',
+  },
+  {
+    name: 'Toby',
+    bornIn: 1901,
+    nationality: 'Australian',
+  },
+  {
+    name: 'Frida',
+    bornIn: 1960,
+    nationality: 'Dannish',
+  },
+  {
+    name: 'Fernando',
+    bornIn: 2001,
+    nationality: 'Brazilian',
+  },
+];
+
+const filterPeople = array => {
+  const filter = array.filter((element) => element.bornIn < 2000 && element.nationality === 'Australian');
+  return console.log(filter);
+};
+
+filterPeople(people);
+
 // exercicio 5
+
+const myList = [1, 2, 3];
+
+const fruitList = ['banana', 'maçã', 'pêra'];
+
+const swap = ([x, y, z]) => [z, y, x];
+
+console.log(swap(myList));
+console.log(swap(fruitList));
+
 // exercicio 6
+
+const palio = ['Palio', 'Fiat', 2019];
+const shelbyCobra = ['Shelby Cobra', 'Ford', 1963];
+const chiron = ['Chiron', 'Bugatti', 2016];
+
+// escreva toObject abaixo
+
+const insert = () => {
+
+};
+
+console.log(carros);
+
 // exercicio 7
+
+const ships = [
+  {
+    name: 'Titanic',
+    length: 269.1,
+    measurementUnit: 'meters',
+  },
+  {
+    name: 'Queen Mary 2',
+    length: 1132,
+    measurementUnit: 'feet',
+  },
+  {
+    name: 'Yamato',
+    length: 256,
+    measurementUnit: 'meters',
+  },
+];
+
+// escreva shipLength abaixo
+
+console.log(shipLength(ships[0]) // 'Titanic is 269.1 meters long'
+console.log(shipLength(ships[1]) // 'Queen Mary 2 is 1132 feet long'
+console.log(shipLength(ships[2]) // 'Yamato is 256 meters long'
+
 // exercicio 8
 // exercicio 9
