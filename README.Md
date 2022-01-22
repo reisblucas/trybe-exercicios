@@ -9,6 +9,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ### Bloco 1: Unix & Bash :white_check_mark:
+
 - [X] 1.3 - Fundamentos do Desenvolvimento Web
 - [X] 1.3 - Introdução Unix & Shell
 - [X] 1.3 - Unix & Bash Parte 1
@@ -242,3 +243,48 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ### Bloco 32: Projeto - App de Delivery :hourglass_flowing_sand:
 
 - [ ] 32.1 - Projeto - App de Delivery
+
+## Ciência da Computação :hourglass_flowing_sand:
+
+### Bloco 33: Introdução à Python :hourglass_flowing_sand:
+
+- [ ] 33.1  - Introdução - Ciência da Computação
+- [ ] 33.1  - Aprendendo Python
+- [ ] 33.2  - Entrada e Saída de Dados
+- [ ] 33.3  - Testes
+- [ ] 33.4  - Projeto - Job Insights
+
+### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto :hourglass_flowing_sand:
+
+- [ ] 34.1  - Introdução à programação orientada a objetos
+- [ ] 34.1  - Herança, Composição e Interfaces
+- [ ] 34.2  - Padrões de projeto
+- [ ] 34.3  - Projeto - Relatórios de Estoque
+
+### Bloco 35: Redes e Raspagem de Dados :hourglass_flowing_sand:
+
+- [ ] 35.1  - Arquitetura de redes
+- [ ] 35.2  - Redes de computadores, ferramentas e segurança
+- [ ] 35.3  - Raspagem de Dados
+- [ ] 35.4  - Projeto - Tech News
+
+### Bloco 36: Algoritmos :hourglass_flowing_sand:
+
+- [ ] 36.1  - Complexidade de Algoritmos
+- [ ] 36.2  - Recursividade e Estratégias para solução de problemas
+- [ ] 36.3  - Algoritmos de ordenação e busca
+- [ ] 36.4  - Projeto - Algoritmos
+
+### Bloco 37: Estrutura de Dados I - Arrays, Hashmaps e Sets :hourglass_flowing_sand:
+
+- [ ] 37.1  - Arquitetura de Computadores
+- [ ] 37.2  - Arrays
+- [ ] 37.3  - Hashmap e Dict
+- [ ] 37.4  - Set
+- [ ] 37.5  - Projeto - Restaurant Orders
+
+### Bloco 38: Estrutura de Dados II - Listas, Filas e Pilhas :hourglass_flowing_sand:
+
+- [ ] 38.1  - Né e Listas Encadeadas
+- [ ] 38.2  - Pilhas e Filas
+- [ ] 38.3  - Projeto - TING - Trybe Is Not Google
