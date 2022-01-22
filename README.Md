@@ -1,11 +1,12 @@
 # Trybe
 
-Este repositorio contem todas as atividades de aprendizagem desenvolvidas por _[Lucas Barbosa dos Reis]()_ enquanto estudava na _[Trybe](https://www.betrybe.com/)_.
+Este repositorio contem todas as atividades de aprendizagem desenvolvidas por _[Lucas Barbosa dos Reis](https://www.linkedin.com/in/reisblucas/)_ enquanto estudava na _[Trybe](https://www.betrybe.com/)_.
 
 A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho.
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
+##
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ### Bloco 1: Unix & Bash :white_check_mark:
@@ -83,6 +84,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 9.3 - Jest - Testes Assíncronos
 - [X] 9.4 - Projeto - Carrinho de Compras
 
+##
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ### Bloco 10: Introdução ao React :hourglass_flowing_sand:
@@ -141,6 +143,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [ ] 18.1 - Projeto - App de Receitas
 
+##
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ### Bloco 19: Docker: Utilizando Containers :hourglass_flowing_sand:
@@ -244,6 +247,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [ ] 32.1 - Projeto - App de Delivery
 
+##
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ### Bloco 33: Introdução à Python :hourglass_flowing_sand:
