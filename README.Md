@@ -6,7 +6,7 @@ A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ### Bloco 1: Unix & Bash :white_check_mark:
 - [X] 1.3 - Fundamentos do Desenvolvimento Web
@@ -36,7 +36,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 4.4 - JavaScript - Objetos e funções
 - [X] 4.5 - Projeto - Playground Functions
 
-### Bloco 5: JavaScript: DOM, Eventos e Web Storage :hourglass_flowing_sand:
+### Bloco 5: JavaScript: DOM, Eventos e Web Storage :white_check_mark:
 
 - [X] 5.1 - JavaScript - DOM e seletores
 - [X] 5.2 - JavaScript - Trabalhando com elementos
@@ -49,7 +49,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
 - [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
-### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :white_check_mark:
 
 - [ ] 6.1 - HTML & CSS - Forms
 - [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
@@ -59,14 +59,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 6.5 - CSS Responsivo - Mobile First
 - [ ] 6.6 - Projeto - Trybewarts
 
-### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
+### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :white_check_mark:
 
 - [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 7.2 - JavaScript ES6 - Objects
 - [ ] 7.3 - Primeiros passos em Jest
 - [ ] 7.4 - Projeto - JavaScript Testes Unitários
 
-### Bloco 8: Projeto - JavaScript Testes Unitários
+### Bloco 8: Projeto - JavaScript Testes Unitários :white_check_mark:
 
 - [ ] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
 - [ ] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
@@ -75,16 +75,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [ ] 8.6 - Projeto - Zoo functions
 
-### Bloco 9: JavaScript e Testes Assíncronos
+### Bloco 9: JavaScript e Testes Assíncronos :white_check_mark:
 
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
 - [ ] 9.3 - Jest - Testes Assíncronos
 - [ ] 9.4 - Projeto - Carrinho de Compras
 
-## Desenvolvimento Front-end
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-### Bloco 10: Introdução ao React
+### Bloco 10: Introdução ao React :hourglass_flowing_sand:
 
 - [ ] 10.1 - Introdução - Front-end
 - [ ] 10.1 - Introdução - React
@@ -92,31 +92,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 10.2 - Componentes React
 - [ ] 10.3 - Projeto - Sistema Solar
 
-### Bloco 11: Componentes com Estado, Eventos e Formulários com React
+### Bloco 11: Componentes com Estado, Eventos e Formulários com React :hourglass_flowing_sand:
 
 - [ ] 11.1 - Componentes com estado e eventos
 - [ ] 11.2 - Formulários no React
 - [ ] 11.3 - Projeto - Tryunfo
 
-### Bloco 12: Ciclo de Vida de Componentes e React Router
+### Bloco 12: Ciclo de Vida de Componentes e React Router :hourglass_flowing_sand:
 
 - [ ] 12.1 - Ciclo de vida de componentes
 - [ ] 12.2 - React Router
 - [ ] 12.3 - Projeto - TrybeTunes
 
-### Bloco 13: Metodologias Ágeis
+### Bloco 13: Metodologias Ágeis :hourglass_flowing_sand:
 
 - [ ] 13.1 - Metodologias Ágeis
 - [ ] 13.2 - Projeto - Frontend Online Store
 
-### Bloco 14: Testes automatizados com React Testing Library
+### Bloco 14: Testes automatizados com React Testing Library :hourglass_flowing_sand:
 
 - [ ] 14.1 - RTL - Primeiros passos
 - [ ] 14.2 - RTL - Mocks e Inputs
 - [ ] 14.3 - RTL - Testando React Router
 - [ ] 14.4 - Projeto - Testes em React
 
-### Bloco 15: JavaScript e Testes Assíncronos
+### Bloco 15: JavaScript e Testes Assíncronos :hourglass_flowing_sand:
 
 - [ ] 15.1 - Introdução ao Redux - O estado global da aplicação
 - [ ] 15.2 - Usando o Redux no React
@@ -125,11 +125,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 15.5 - Testes em React-Redux
 - [ ] 15.6 - Projeto - Trybe Wallet
 
-### Bloco 16: Projeto Jogo de Trívia
+### Bloco 16: Projeto Jogo de Trívia :hourglass_flowing_sand:
 
 - [ ] 16.1 - Projeto - Jogo de Trívia
 
-### Bloco 17: Context API e React Hooks
+### Bloco 17: Context API e React Hooks :hourglass_flowing_sand:
 
 - [ ] 17.1 - Context API do React
 - [ ] 17.2 - React Hooks - useState e useContext
@@ -140,130 +140,105 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [ ] 18.1 - Projeto - App de Receitas
 
-## Desenvolvimento Back-end
+## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-### Bloco 19: Docer
+### Bloco 19: Docker: Utilizando Containers :hourglass_flowing_sand:
 
-- [ ] 19.1 - 
-- [ ] 19.2 -
-- [ ] 19.3
-- [ ] 19.4 -
-- [ ] 19.5 -
-- [ ] 19.6 - Projeto -
+- [ ] 19.1 - Introdução - Back-end
+- [ ] 19.1 - Utilizando Containers - Docker
+- [ ] 19.2 - Manipulação e Criação de Imagens no Docker
+- [ ] 19.3 - Orquestrando Container com Docker Compose
+- [ ] 19.4 - Projeto - Docker Todo-List
 
-### Bloco 20: 
+### Bloco 20: Introdução à SQL :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 20.1 - Introdução - Bancos de dados Relacionais
+- [ ] 20.1 - Banco de dados SQL
+- [ ] 20.2 - Encontrando dados em um banco de dados
+- [ ] 20.3 - Filtrando dados de forma específica
+- [ ] 20.4 - Manipulando tabelas
+- [ ] 20.5 - Projeto - All For One
 
-### Bloco 20: 
+### Bloco 21: Funções SQL, JOINs e Normalização :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 21.1 - Funções mais usadadas no SQL
+- [ ] 21.2 - Descomplicando JOINs
+- [ ] 21.3 - Transformando ideias em um modelo de banco de dados
+- [ ] 21.4 - Aula ao vivo + Projeto - One For All
 
-### Bloco 20: 
+### Bloco 22: Introdução ao desenvolvimento Web com Node.js :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 22.1 - Intro - Node.js
+- [ ] 22.1 - Node.js - Um motor JavaScript
+- [ ] 22.2 - Node.js - Fluxo Assíncrono
+- [ ] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
+- [ ] 22.4 - Express - HTTP com Node.js
+- [ ] 22.5 - Express - Middlewares
+- [ ] 22.6 - Projeto - Talker Manager
 
-### Bloco 20: 
+### Bloco 23: Node.js - Camada de Serviço e Arquitetura Rest e Restful :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 23.1 - Introdução - Arquitetura de Software
+- [ ] 23.1 - Arquitetura de Software - Camada de Model
+- [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
+- [ ] 23.3 - Arquitetura Web - Rest e Restful
+- [ ] 23.4 - Arquitetura de Software - Testando as Camadas
+- [ ] 23.5 - Projeto - Store Manager
 
-### Bloco 20: 
+### Bloco 24: Node.js - ORM e Autenticação :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 24.1 - Introdução - Node.js: ORM e Autenticação
+- [ ] 24.1 - ORM - Interface da Aplicação com o Banco de Dados
+- [ ] 24.2 - ORM - Associations
+- [ ] 24.3 - JWT (JSON Web Token)
+- [ ] 24.4 - Projeto - API de Blogs
 
-### Bloco 20: 
+### Bloco 25: Deployment :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 25.1 - Introdução - Deploy
+- [ ] 25.2 - Infraestrutura - Deploy com Heroku
+- [ ] 25.3 - Deploy Docker & Heroku
+- [ ] 25.4 - Projeto - Stranger Things
 
-### Bloco 20: 
+### Bloco 26: TypeScript :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 26.1 - Introdução ao TypeScript
+- [ ] 26.2 - Tipagem Estática e Generics
+- [ ] 26.3 - Express com TypeScript
+- [ ] 26.4 - Projeto - Trybe Smith
 
-### Bloco 20: 
+### Bloco 27: Programação Orientada a Objetos(POO) e SOLID :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 27.1 - Introdução à Orientação a Objetos
+- [ ] 27.2 - Herança e Interfaces
+- [ ] 27.3 - Polimorfismo
+- [ ] 27.4 - SOLID - Introdução
+- [ ] 27.5 - SOLID - Cotinuação
+- [ ] 27.6 - Projeto - Trybers and Dragons
 
-### Bloco 20: 
+### Bloco 28: Projeto - TFC - Trybe Futebol Clube :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 28.1 - Projeto - TFC - Trybe Futebol Clube
 
-### Bloco 20: 
+### Bloco 29: Introdução ao MongoDB :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 29.1 - Introdução - NoSQL
+- [ ] 29.1 - MongoDB - Introdução
+- [ ] 29.2 - Filter Operators
+- [ ] 29.3 - Projeto - Data Flights
 
-### Bloco 20: 
+### Bloco 30: MongoDB - Updates Simples e Complexos :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 30.1 - Updates Simples
+- [ ] 30.2 - Updates Complexos - Arrays - Parte 1
+- [ ] 30.3 - Updates Complexos - Arrays - Parte 2
+- [ ] 30.4 - Projeto - Commerce
 
-### Bloco 20: 
+### Bloco 31: MasteClass - VPS, CI/CD :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 31.1 - MasterClass - Dia 1
+- [ ] 31.2 - MasterClass - Dia 2
 
-### Bloco 32: 
+### Bloco 32: Projeto - App de Delivery :hourglass_flowing_sand:
 
-- [ ] 20.1 - 
-- [ ] 20.2 -
-- [ ] 20.3
-- [ ] 20.4 -
-- [ ] 20.5 -
-- [ ] 20.6 - Projeto - 
+- [ ] 32.1 - Projeto - App de Delivery
