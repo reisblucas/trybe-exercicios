@@ -10,11 +10,13 @@ class App extends Component {
         <header>
           <h1>Pokedex</h1>
         </header>
+
         <section className='Pokedex'>
           {
             pokemons.map((pokemon) => <CardPokemon key={ pokemon.id } pokemons={pokemon}/>)
           }
         </section>
+
         <footer>
           <p>
             Conteúdo compilado por Lucas Barbosa dos Reis, enquanto aluno da Trybe, para atividade sobre HTML Semântico.
