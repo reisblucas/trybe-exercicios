@@ -2,8 +2,38 @@ import './App.css';
 import React, { Component } from 'react';
 import pokemons from'./components/data';
 import CardPokemon from './components/CardPokemon'
+import Button from './components/Button';
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      pokemonType: 'All',
+      pokemonIndex: 0,
+      buttonType: [],
+    }
+
+    this.filterPokemonType = this.filterPokemonType.bind(this);
+    this.nextPokemon = this.nextPokemon.bind(this);
+    this.prevPokemon = this.prevPokemon.bind(this);
+  }
+
+  filterPokemonType(event) {
+    this.setState({
+      pokemonType: event.target.innerText,
+    })
+  }
+
+  nextPokemon() {
+    this.setState((prevState, _props) => ({
+      pokemonIndex: prevState.pokemonIndex + 1,
+    }))
+  }
+
+  prevPokemon() {
+
+  }
+
   render () {
     return (
       <main>
@@ -11,10 +41,39 @@ class App extends Component {
           <h1>Pokedex</h1>
         </header>
 
-        <section className='Pokedex'>
-          {
-            pokemons.map((pokemon) => <CardPokemon key={ pokemon.id } pokemons={pokemon}/>)
-          }
+        <section>
+          <section className='sectionButtons'>
+            <span>Type:</span>
+            {
+              pokemons.map((pokemon) => {
+                if (!this.state.buttonType.includes(pokemon.type)) {
+                  this.state.buttonType.push(pokemon.type)
+                  console.log(this.state.buttonType)
+                  return <Button 
+                    key={pokemon.id}
+                    value={this.state.pokemonType}
+                    onClick={this.filterPokemonType}
+                    pokeType={pokemon.type}
+                  />
+                }
+                // return this.state.buttonType;
+              })
+            }
+            <button value={this.state.pokemonType} onClick={this.filterPokemonType}>All</button>
+
+          </section>
+          <div>
+            <button value={this.state.pokemonIndex} onClick={this.nextPokemon}>Next Pokemon</button>
+          </div>
+          <section className='Pokedex'>
+            {
+              pokemons.filter((pokemon) => {
+                if (this.state.pokemonType === 'All') { return pokemon.type }
+                return pokemon.type === this.state.pokemonType;
+              })
+                .map((pokemon) => <CardPokemon key={ pokemon.id } pokemons={pokemon}/>)
+            }
+          </section>
         </section>
 
         <footer>

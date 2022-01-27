@@ -13,7 +13,7 @@ class Card extends Component {
           <p>Average weight: {value} {measurementUnit}</p>
           <a href={moreInfo} target="_blank" rel="noreferrer"><button>More Info</button></a>
         </div>
-        <vr style={{border: '1px solid lightgrey'}}/>
+        <hr style={{border: '1px solid lightgrey'}}/>
         <div className="ImageRow">
           <Image src={image} alt={`Pokemon image of ${name}`}/>
         </div>
