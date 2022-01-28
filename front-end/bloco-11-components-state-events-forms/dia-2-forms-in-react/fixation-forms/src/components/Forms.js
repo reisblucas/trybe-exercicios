@@ -17,10 +17,12 @@ class Forms extends React.Component {
   }
 
   handleChanges({ target }) {
-    const { name, checked } = target;
+    const { name, checked, type } = target;
     const value = checked === true ? true : target.value;
 
-    // if (checked === true)
+    // if (type === 'checkbox') {
+
+    // }
 
     this.setState({
       [name]: value,
@@ -41,14 +43,6 @@ class Forms extends React.Component {
           <Input type={"text"} value={this.state.typedText} onChange={this.handleChanges} name={"typedText"} />
           <Input type={"color"} value={this.state.inputColor} onChange={this.handleChanges} name={"inputColor"} />
           <Input type={"checkbox"} value={this.state.checkbox} onChange={this.handleChanges} name={"checkbox"} id={'teste'} />
-          {/* <br />
-          <input value={this.state.typedText} onChange={this.handleChanges} type="text" name="typedText"/>
-
-          <br />
-          <input value={this.state.inputColor} onChange={this.handleChanges} type="color" name="inputColor" id="inputColor" />
-
-          <br />
-          <input value={this.state.checkbox} onChange={this.handleChanges} type="checkbox" name="checkbox" id="" /> */}
         </fieldset>
       </form>
     );
