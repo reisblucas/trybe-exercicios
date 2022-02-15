@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+.Pokedex {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-around;
+}
+
+.ArtPoke {
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid rgb(187, 187, 187);
+  max-width: 40%;
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-around;
+}
+
+.InfoColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.ImageRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
