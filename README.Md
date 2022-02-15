@@ -7,22 +7,22 @@ A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ##
-## Fundamentos do Desenvolvimento Web :white_check_mark:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
-### Bloco 1: Unix & Bash :white_check_mark:
+### Bloco 1: Unix & Bash :heavy_check_mark:
 
 - [X] 1.3 - Fundamentos do Desenvolvimento Web
 - [X] 1.3 - Introdução Unix & Shell
 - [X] 1.3 - Unix & Bash Parte 1
 - [X] 1.4 - Unix & Bash Parte 2
 
-### Bloco 2: Git, GitHub e Internet :white_check_mark:
+### Bloco 2: Git, GitHub e Internet :heavy_check_mark:
 
 - [X] 2.1 - Git & GitHub - O que é e para o que serve
 - [X] 2.2 - Git & GitHub - Entendendo os comandos
 - [X] 2.3 - Internet - Entendendo como ela funciona
 
-### Bloco 3: Introdução ao HTML e CSS :white_check_mark:
+### Bloco 3: Introdução ao HTML e CSS :heavy_check_mark:
 
 - [X] 3.1 - HTML & CSS - Estruturas de página
 - [X] 3.2 - HTML & CSS - Primeiros passos em CSS
@@ -30,7 +30,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 3.4 - HTML Semântico
 - [X] 3.5 - Projeto - Lessons Learned
 
-### Bloco 4: Introdução à JavaScript e Lógica de Programação :white_check_mark:
+### Bloco 4: Introdução à JavaScript e Lógica de Programação :heavy_check_mark:
 
 - [X] 4.1 - JavaScript - Primeiros passos
 - [X] 4.2 - JavaScript - Array e loop For
@@ -38,7 +38,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 4.4 - JavaScript - Objetos e funções
 - [X] 4.5 - Projeto - Playground Functions
 
-### Bloco 5: JavaScript: DOM, Eventos e Web Storage :white_check_mark:
+### Bloco 5: JavaScript: DOM, Eventos e Web Storage :heavy_check_mark:
 
 - [X] 5.1 - JavaScript - DOM e seletores
 - [X] 5.2 - JavaScript - Trabalhando com elementos
@@ -51,7 +51,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 5.7 - (Bônus) Projeto - Adivinhe a Cor
 - [X] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
-### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :white_check_mark:
+### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :heavy_check_mark:
 
 - [X] 6.1 - HTML & CSS - Forms
 - [X] 6.2 - Bibliotecas JavaScript e Frameworks CSS
@@ -61,14 +61,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 6.5 - CSS Responsivo - Mobile First
 - [X] 6.6 - Projeto - Trybewarts
 
-### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :white_check_mark:
+### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :heavy_check_mark:
 
 - [X] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [X] 7.2 - JavaScript ES6 - Objects
 - [X] 7.3 - Primeiros passos em Jest
 - [X] 7.4 - Projeto - JavaScript Testes Unitários
 
-### Bloco 8: Projeto - JavaScript Testes Unitários :white_check_mark:
+### Bloco 8: Projeto - JavaScript Testes Unitários :heavy_check_mark:
 
 - [X] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
 - [X] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
@@ -77,7 +77,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [X] 8.6 - Projeto - Zoo functions
 
-### Bloco 9: JavaScript e Testes Assíncronos :white_check_mark:
+### Bloco 9: JavaScript e Testes Assíncronos :heavy_check_mark:
 
 - [X] 9.1 - JavaScript Assíncrono e Callbacks
 - [X] 9.2 - JavaScript Assíncrono - Fetch API e async/await
