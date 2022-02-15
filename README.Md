@@ -87,7 +87,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ##
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-### Bloco 10: Introdução ao React :white_check_mark:
+### Bloco 10: Introdução ao React :heavy_check_mark:
 
 - [X] 10.1 - Introdução - Front-end
 - [X] 10.1 - Introdução - React
@@ -95,19 +95,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 10.2 - Componentes React
 - [X] 10.3 - Projeto - Sistema Solar
 
-### Bloco 11: Componentes com Estado, Eventos e Formulários com React :white_check_mark:
+### Bloco 11: Componentes com Estado, Eventos e Formulários com React :heavy_check_mark:
 
 - [X] 11.1 - Componentes com estado e eventos
 - [X] 11.2 - Formulários no React
 - [X] 11.3 - Projeto - Tryunfo
 
-### Bloco 12: Ciclo de Vida de Componentes e React Router :white_check_mark:
+### Bloco 12: Ciclo de Vida de Componentes e React Router :heavy_check_mark:
 
 - [X] 12.1 - Ciclo de vida de componentes
 - [X] 12.2 - React Router
 - [X] 12.3 - Projeto - TrybeTunes
 
-### Bloco 13: Metodologias Ágeis :white_check_mark:
+### Bloco 13: Metodologias Ágeis :heavy_check_mark:
 
 - [X] 13.1 - Metodologias Ágeis
 - [X] 13.2 - Projeto - Frontend Online Store
