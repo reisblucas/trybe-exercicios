@@ -27,7 +27,7 @@ describe('test 1', () => {
     expect(inputTodo.value).toBe(TASK);
 
     userEvent.click(addButton);
-    const taskAdded = screen.getByText(TASK);
-    expect(taskAdded);
+    const addedTask = screen.getByText(TASK);
+    expect(addedTask);
   });
 });
