@@ -32,6 +32,7 @@ class InputTodo extends Component {
             type="text"
             value={ textTodo }
             onChange={ (e) => this.changeTextTodo(e.target.value) }
+            data-testid="input-value"
           />
         </label>
         <input
