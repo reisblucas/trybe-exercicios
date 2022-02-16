@@ -1,32 +1,34 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
-import Item from '../Item';
 
-describe('Teste do campo de input', () => {
-  test('Testando a adição de vários itens a aplicação', () => {
-    const listTodo = ['Realizar CR', 'Ler Post no Medium', 'Beber água']; // Use esse array como base para realizar os testes.
-    render(<App />); // Caso precise de uma nova query adicione no object destructuring
+describe('Testando funcionalidade de apagar item selecionado', () => {
+  test('Não deve haver botões de remover após a primeira renderização da página', () => {
+    const { findAllByTestId } = render(<App />);
+    const btnRemove = findAllByTestId('id-remove')[0];
 
-    const inputTodo = screen.getByTestId('input-value');
-    const addButton = screen.getByRole('button', { name: 'Adicionar' });
-
-    listTodo.forEach((task) => {
-      userEvent.type(inputTodo, task);
-      userEvent.click(addButton);
-
-      const addedTask = screen.getByText(task);
-      expect(addedTask).toBeInTheDocument();
-    });
+    expect(btnRemove).toBe(undefined);
   });
-});
 
-describe('Teste do componente Item', () => {
-  test('Ao receber uma string como prop ela precisa aparecer na tela', () => {
-    render(<Item content="lucao" />);
+  test('Testando a seleção de elemento', async () => {
+    const { getByLabelText, getByText, findAllByText, queryByText } = render(<App />);
+    const inputTask = getByLabelText('Tarefa:');
+    const btnAdd = getByText('Adicionar');
 
-    const lucao = screen.getByText('lucao');
-    expect(lucao).toBeInTheDocument();
+    userEvent.type(inputTask, 'Exercitar');
+    userEvent.click(btnAdd);
+    userEvent.type(inputTask, 'Estudar');
+    userEvent.click(btnAdd);
+
+    const [btnRemove] = await findAllByText('Remover');
+    const selectTask = getByText('Exercitar');
+
+    expect(selectTask).toBeInTheDocument();
+    expect(btnRemove.disabled).toBe(true);
+    userEvent.click(selectTask);
+    expect(btnRemove.disabled).toBe(false);
+    userEvent.click(btnRemove);
+    expect(queryByText('Exercitar')).not.toBeInTheDocument();
   });
 });
