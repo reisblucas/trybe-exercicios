@@ -10,4 +10,3 @@ test('Testando um componente, caso o email seja válido.', () => {
   const isValid = screen.getByText('Email Válido');
   expect(isValid).toBeInTheDocument();
 });
-
