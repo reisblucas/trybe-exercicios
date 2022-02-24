@@ -93,11 +93,6 @@
       const containerColor = document.getElementById('container');
 
       prevBtt.addEventListener('click', () => {
-        // const colorValue = document.getElementById('value');
-        // const containerColor = document.getElementById('container');
-
-        const teste = ['white', 'black', 'red', 'green', 'blue', 'yellow'];
-
         store.dispatch({type: 'PREVIOUS_COLOR'})
 
         const { colors, index } = store.getState();
@@ -107,9 +102,6 @@
       });
 
       nextBtt.addEventListener('click', () => {
-        // const colorValue = document.getElementById('value');
-        // const containerColor = document.getElementById('container');
-
         store.dispatch({type: 'NEXT_COLOR'});
 
         const { colors, index } = store.getState();
@@ -122,7 +114,6 @@
       randomBtt.addEventListener('click', async () => {
         await store.dispatch({ type: 'NEW_COLOR', payload: newColor()});
 
-        console.log(store.getState());
         const { colors, index } = await store.getState();
         colorValue.innerText = colors[index];
         containerColor.style.backgroundColor = colors[index];
