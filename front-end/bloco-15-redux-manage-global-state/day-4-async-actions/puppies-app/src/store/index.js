@@ -20,12 +20,21 @@ function failedRequest(error) {
 }
 
 export function fetchDog() {
-  return (dispatch) => {
+  return async (dispatch) => {
     dispatch(requestDog());
-    return fetch('https://dog.ceo/api/breeds/image/random')
-      .then(response => response.json())
-      .then(json => dispatch(getImage(json)))
-      .catch(error => dispatch(failedRequest(error)))
+    try {
+      const request = await fetch('https://dog.ceo/api/breeds/image/random');
+      const response = await request.json();
+      dispatch(getImage(response));
+    } catch (error) {
+      dispatch(failedRequest(error));
+    }
+
+
+    // return await fetch('https://dog.ceo/api/breeds/image/random')
+    //   .then(response => response.json())
+    //   .then(json => dispatch(getImage(json)))
+    //   .catch(error => dispatch(failedRequest(error)))
   };
 }
 
