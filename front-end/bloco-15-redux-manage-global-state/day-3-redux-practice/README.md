@@ -6,3 +6,5 @@
 Nesse bloco, reforçarei a forma de como:
 
 > Utilizar o Redux em suas aplicações;
+
+- Além disso, ajudei colegas do grupo a entenderem melhor sobre como utilizar o Redux.
