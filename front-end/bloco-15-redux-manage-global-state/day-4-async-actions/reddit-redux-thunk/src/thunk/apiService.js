@@ -1,7 +1,6 @@
 import { changePostReact } from "../action/actionCreator";
 
 const REQUEST_API = 'REQUEST_API';
-// const GET_MESSAGES = 'GET_MESSAGES';
 
 const requestAPI = () => ({ type: REQUEST_API })
 
