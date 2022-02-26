@@ -30,8 +30,8 @@ header {
 
 .postList {
   border-radius: 5px;
-  background-color: rgb(235, 235, 235);
   width: 50%;
+  background-color: rgb(235, 235, 235);
 }
 
 .postList li {

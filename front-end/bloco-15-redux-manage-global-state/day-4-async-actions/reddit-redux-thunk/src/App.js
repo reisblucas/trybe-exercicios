@@ -47,22 +47,29 @@ class App extends Component {
           </div>
         </section>
 
-        <section className='postSection'>
-          <div className='postList'>
-            <ol>
-              {
-                state.map((post) => {
-                  const { data: { id, title, url }} = post;
-                  return (
-                  <li key={id}>
-                    <a target="_blank" rel="noreferrer" href={url}>{title}</a>
-                  </li>
-                  )
-                })
-              }
-            </ol>
-          </div>
-        </section>
+
+        {
+          state.length > 1 && 
+          (
+            <section className='postSection'>
+
+              <div className='postList'>
+                <ol>
+                  {
+                    state.map((post) => {
+                      const { data: { id, title, url }} = post;
+                      return (
+                      <li key={id}>
+                        <a target="_blank" rel="noreferrer" href={url}>{title}</a>
+                      </li>
+                      )
+                    })
+                  }
+                </ol>
+              </div>
+            </section>
+          )
+        }
 
         <footer className='footer'>
           <h5 className='footer'>Conteúdo compilado por Lucas Barbosa dos Reis</h5>
