@@ -18,16 +18,3 @@ export function fetchMessages(page) {
     }
   }
 }
-
-// export function fetchAPI() {
-//   return async (dispatch) => {
-//     dispatch(requestAPI);
-//     try {
-//       const request = await fetch('https://aws.random.cat/meow');
-//       const response = await request.json();
-//       dispatch(getPicture(response));
-//     } catch (error) {
-//       dispatch(getPicture(error));
-//     }
-//   }
-// }
