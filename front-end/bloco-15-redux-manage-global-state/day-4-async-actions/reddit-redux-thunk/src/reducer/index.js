@@ -1,7 +1,7 @@
 import { CHANGE_POST } from "../action/actionCreator"
 
 const initialState = {
-  data: '',
+  data: [],
 }
 
 export const reducerReact = (state = initialState, action) => {
