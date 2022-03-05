@@ -112,20 +112,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 13.1 - Metodologias Ágeis
 - [X] 13.2 - Projeto - Frontend Online Store
 
-### Bloco 14: Testes automatizados com React Testing Library :hourglass_flowing_sand:
+### Bloco 14: Testes automatizados com React Testing Library :heavy_check_mark:
 
-- [ ] 14.1 - RTL - Primeiros passos
-- [ ] 14.2 - RTL - Mocks e Inputs
-- [ ] 14.3 - RTL - Testando React Router
-- [ ] 14.4 - Projeto - Testes em React
+- [X] 14.1 - RTL - Primeiros passos
+- [X] 14.2 - RTL - Mocks e Inputs
+- [X] 14.3 - RTL - Testando React Router
+- [X] 14.4 - Projeto - Testes em React
 
-### Bloco 15: JavaScript e Testes Assíncronos :hourglass_flowing_sand:
+### Bloco 15: JavaScript e Testes Assíncronos :heavy_check_mark:
 
-- [ ] 15.1 - Introdução ao Redux - O estado global da aplicação
-- [ ] 15.2 - Usando o Redux no React
-- [ ] 15.3 - Usando o Redux no React - Prática
-- [ ] 15.4 - Usando o Redux no React - Actions Assíncronas
-- [ ] 15.5 - Testes em React-Redux
+- [X] 15.1 - Introdução ao Redux - O estado global da aplicação
+- [X] 15.2 - Usando o Redux no React
+- [X] 15.3 - Usando o Redux no React - Prática
+- [X] 15.4 - Usando o Redux no React - Actions Assíncronas
+- [X] 15.5 - Testes em React-Redux
 - [ ] 15.6 - Projeto - Trybe Wallet
 
 ### Bloco 16: Projeto Jogo de Trívia :hourglass_flowing_sand:
