@@ -1,4 +1,4 @@
-# Bloco 15:
+# Bloco 15.5:
 
 ## Redux - Tests in React Redux
 ## São Paulo, 03/03/2022
