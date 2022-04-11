@@ -1,6 +1,6 @@
 # Bloco 15:
 
-## Redux - Reack and Redux
+## Redux - React and Redux
 
 ## São Paulo, 23/02/2022
 
