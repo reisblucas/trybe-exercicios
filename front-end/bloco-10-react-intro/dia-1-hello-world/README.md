@@ -1,4 +1,4 @@
-# Bloco 10:
+# Bloco 10.1:
 
 ## 'Hello world' in React
 ## São Paulo, 21/01/2022
