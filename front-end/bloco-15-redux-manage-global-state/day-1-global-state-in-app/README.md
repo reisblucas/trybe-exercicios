@@ -5,5 +5,5 @@
 
 Nesse bloco, aprenderei como:
 
-> Criar uma Store para armazenar o estado de uma aplicação.
-> Utilizar Reducers e Actions para atualizar a Store
+> Criar uma Store para armazenar o estado de uma aplicação.\
+> Utilizar Reducers e Actions para atualizar a Store.
