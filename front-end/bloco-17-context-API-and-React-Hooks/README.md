@@ -6,4 +6,5 @@
 Nesse bloco, desenvolvi a habilidade de:
 
 > Utilizar o React Hook useState;
-> Utilizar o React Hook useContext.
+> Utilizar o React Hook useContext;
+> Hooks em geral.
