@@ -85,7 +85,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 9.4 - Projeto - Carrinho de Compras
 
 ##
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Frontend :heavy_check_mark:
 
 ### Bloco 10: Introdução ao React :heavy_check_mark:
 
@@ -128,23 +128,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 15.5 - Testes em React-Redux
 - [X] 15.6 - Projeto - Trybe Wallet
 
-### Bloco 16: Projeto Jogo de Trívia :hourglass_flowing_sand:
+### Bloco 16: Projeto Jogo de Trívia :heavy_check_mark:
 
-- [ ] 16.1 - Projeto - Jogo de Trívia
+- [X] 16.1 - Projeto - Jogo de Trívia
 
-### Bloco 17: Context API e React Hooks :hourglass_flowing_sand:
+### Bloco 17: Context API e React Hooks :heavy_check_mark:
 
-- [ ] 17.1 - Context API do React
-- [ ] 17.2 - React Hooks - useState e useContext
-- [ ] 17.3 - React Hooks - useEffect e Hooks customizados
-- [ ] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
+- [X] 17.1 - Context API do React
+- [X] 17.2 - React Hooks - useState e useContext
+- [X] 17.3 - React Hooks - useEffect e Hooks customizados
+- [X] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
 
-### Bloco 18: JavaScript e Testes Assíncronos :hourglass_flowing_sand:
+### Bloco 18: JavaScript e Testes Assíncronos :heavy_check_mark:
 
-- [ ] 18.1 - Projeto - App de Receitas
+- [X] 18.1 - Projeto - App de Receitas
 
 ##
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Backend :hourglass_flowing_sand:
 
 ### Bloco 19: Docker: Utilizando Containers :hourglass_flowing_sand:
 
