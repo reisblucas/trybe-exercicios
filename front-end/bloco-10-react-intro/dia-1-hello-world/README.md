@@ -3,6 +3,8 @@
 ## 'Hello world' in React
 ## São Paulo, 21/01/2022
 
+Nesse bloco aprendi a:
+
 > Saber a melhor forma para instalar um gerenciador de pacotes;\
 > Inicializar um projeto em React;\
 > Utilizar JSX no React;\
