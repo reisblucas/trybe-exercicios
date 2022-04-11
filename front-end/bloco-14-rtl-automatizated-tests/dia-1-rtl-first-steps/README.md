@@ -1,9 +1,9 @@
-# Bloco 14:
+# Bloco 14.1:
 
 ## RTL - Primeiros passos
 ## São Paulo, 15/02/2022
 
-Nesse bloco, irei desenvolver a habilidade de escrever testes automatizados em React:
+Nesse bloco, desenvolvi a habilidade de escrever testes automatizados em React:
 
 > Utilizar os seletores (queries) da React-Testing-Library em testes automatizados;\
 > Simular eventos com a React-Testing-Library em testes automatizados;\
