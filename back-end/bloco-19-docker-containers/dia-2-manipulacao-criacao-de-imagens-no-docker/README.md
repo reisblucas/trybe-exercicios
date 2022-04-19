@@ -1,7 +1,7 @@
 # Bloco 19.2:
 
 ## Handling and Creation of Images in Docker
-## São Paulo, 21/01/2022
+## São Paulo, 12/04/2022
 
 Nesse bloco aprendi a:
 
