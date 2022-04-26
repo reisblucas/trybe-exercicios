@@ -6,7 +6,7 @@
 Nesse bloco, desenvolvi a habilidade de:
 
 > Compreender o que é uma query SQL e quais são seus tipos de comando;\
-> Gerar valores com SELECT ;\
+> Gerar valores com SELECT;\
 > Selecionar colunas individualmente com SELECT;\
 > Renomear e gerar colunas em uma consulta com AS;\
 > Concatenar colunas e valores com CONCAT;\
