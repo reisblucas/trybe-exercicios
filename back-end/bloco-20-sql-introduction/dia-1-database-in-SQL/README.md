@@ -3,7 +3,7 @@
 ## Database in SQL
 ## São Paulo, 19/04/2022
 
-Nesse bloco, desenvolvi a habilidade de:
+Nesse bloco:
 
 > Entendi o que são bancos de dados;\
 > Entendi como a linguagem de consulta estruturada ( SQL ) é usada;\
