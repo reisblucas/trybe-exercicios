@@ -1,6 +1,6 @@
 # Bloco 21.2:
 
-## Most used functions in SQL
+## Handling JOINS
 ## São Paulo, 03/05/2022
 
 > Utilizar INNER JOIN para combinar dados de duas ou mais tabelas;\
