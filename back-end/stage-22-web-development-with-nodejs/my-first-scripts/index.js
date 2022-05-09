@@ -16,10 +16,9 @@ const imc = calcImc(weight, height).toFixed(2);
 console.log('-----------------------');
 
 // Result message
-const msg = `Name: ${name};\nWeight: ${weight}kg;\nHeigth: ${height}m;\nIMC: ${imc}.`;
+const msg = `\nName: ${name};\nWeight: ${weight}kg;\nHeigth: ${height}m;\nIMC: ${imc}.\n-----------------------`;
 
 console.log(msg);
 appender(msg); // Save data
 
-console.log('-----------------------');
 console.log('Thanks!');

@@ -1,7 +1,20 @@
 Name: Lucas;
 Weight: 60kg;
 Heigth: 1.73m;
-IMC: 20.05.Name: Lucas;
-Weight: 60kg;
-Heigth: 1.73m;
 IMC: 20.05.
+-----
+Name: Break;
+Weight: 10kg;
+Heigth: 5m;
+IMC: 0.40. 
+-----
+Name: Teste;
+Weight: 2kg;
+Heigth: 4m;
+IMC: 0.13.
+-----------------------
+Name: Teste 3;
+Weight: 1kg;
+Heigth: 2m;
+IMC: 0.25.
+-----------------------
