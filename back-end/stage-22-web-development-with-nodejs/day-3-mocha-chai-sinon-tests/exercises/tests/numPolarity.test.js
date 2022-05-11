@@ -8,24 +8,37 @@ describe("The function verifies the num polarity", () => {
     rs.questionInt.restore();
   });
 
-  it("Verifies when number is neutral", () => {
-    sinon.stub(rs, "questionInt").returns(0);
-    expect(numPolarity()).to.be.equal("It's a neutral number!");
-  })
-
-  it("Verifies when number is positive", () => {
-    sinon.stub(rs, "questionInt").returns(2);
-    expect(numPolarity()).to.be.equal("It's a positive number!");
-  })
-
-  it("Verifies when number is negative", () => {
-    sinon.stub(rs, "questionInt").returns(-10);
-    expect(numPolarity()).to.be.equal("It's a negative number!");
-  })
+  describe("Test for numbers", () => {
+    it("Verifies when number is neutral", () => {
+      const input = 0;
+      sinon.stub(rs, "questionInt").returns(input);
+      expect(numPolarity()).to.has.property(input);
+      expect(numPolarity()[input]).to.be.equal("It's a neutral number!");
+    });
+  
+    it("Verifies when number is positive", () => {
+      const input = 2;
+      sinon.stub(rs, "questionInt").returns(input);
+      expect(numPolarity()).to.has.property(input);
+      expect(numPolarity()[input]).to.be.equal("It's a positive number!");
+    });
+  
+    it("Verifies when number is negative", () => {
+      const input = -10;
+      sinon.stub(rs, "questionInt").returns(input);
+      expect(numPolarity()).to.has.property(input);
+      expect(numPolarity()[input]).to.be.equal("It's a negative number!");
+    });
+  });
 
   // make tests for not to be equal negative, positive and neutral...
-  it ("Verifies if the input it's different of number", () => {
-    sinon.stub(rs, "questionInt").returns("I'm not a number!");
-    expect(numPolarity()).to.be.equal('Please, insert a number.')
-  })
+  describe("Test for non numbers", () => {
+    it ("Verifies if the input it's different of number", () => {
+      const input = "I'm not a number!";
+      sinon.stub(rs, "questionInt").returns(input);
+      expect(numPolarity()).to.has.property(input);
+      expect(numPolarity()[input]).to.be.equal('Please, insert a number.');
+    });
+  });
+  
 });
