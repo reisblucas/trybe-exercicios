@@ -1,0 +1,10 @@
+--------------------
+Input: 2 | Output: It's a positive number!
+--------------------
+Input: 5 | Output: It's a positive number!
+--------------------
+Input: -1 | Output: It's a negative number!
+--------------------
+Input: 0 | Output: It's a neutral number!
+--------------------
+Input: 20 | Output: It's a positive number!
