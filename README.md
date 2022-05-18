@@ -238,7 +238,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 30.3 - Updates Complexos - Arrays - Parte 2
 - [ ] 30.4 - Projeto - Commerce
 
-### Bloco 31: MasteClass - VPS, CI/CD :hourglass_flowing_sand:
+### Bloco 31: MasterClass - VPS, CI/CD :hourglass_flowing_sand:
 
 - [ ] 31.1 - MasterClass - Dia 1
 - [ ] 31.2 - MasterClass - Dia 2
