@@ -146,39 +146,39 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ##
 ## Desenvolvimento Backend :hourglass_flowing_sand:
 
-### Bloco 19: Docker: Utilizando Containers :hourglass_flowing_sand:
+### Bloco 19: Docker: Utilizando Containers :heavy_check_mark:
 
 - [X] 19.1 - Introdução - Back-end
 - [X] 19.1 - Utilizando Containers - Docker
-- [ ] 19.2 - Manipulação e Criação de Imagens no Docker
-- [ ] 19.3 - Orquestrando Container com Docker Compose
-- [ ] 19.4 - Projeto - Docker Todo-List
+- [X] 19.2 - Manipulação e Criação de Imagens no Docker
+- [X] 19.3 - Orquestrando Container com Docker Compose
+- [X] 19.4 - Projeto - Docker Todo-List
 
-### Bloco 20: Introdução à SQL :hourglass_flowing_sand:
+### Bloco 20: Introdução à SQL :heavy_check_mark:
 
-- [ ] 20.1 - Introdução - Bancos de dados Relacionais
-- [ ] 20.1 - Banco de dados SQL
-- [ ] 20.2 - Encontrando dados em um banco de dados
-- [ ] 20.3 - Filtrando dados de forma específica
-- [ ] 20.4 - Manipulando tabelas
-- [ ] 20.5 - Projeto - All For One
+- [X] 20.1 - Introdução - Bancos de dados Relacionais
+- [X] 20.1 - Banco de dados SQL
+- [X] 20.2 - Encontrando dados em um banco de dados
+- [X] 20.3 - Filtrando dados de forma específica
+- [X] 20.4 - Manipulando tabelas
+- [X] 20.5 - Projeto - All For One
 
-### Bloco 21: Funções SQL, JOINs e Normalização :hourglass_flowing_sand:
+### Bloco 21: Funções SQL, JOINs e Normalização :heavy_check_mark:
 
-- [ ] 21.1 - Funções mais usadadas no SQL
-- [ ] 21.2 - Descomplicando JOINs
-- [ ] 21.3 - Transformando ideias em um modelo de banco de dados
-- [ ] 21.4 - Aula ao vivo + Projeto - One For All
+- [X] 21.1 - Funções mais usadadas no SQL
+- [X] 21.2 - Descomplicando JOINs
+- [X] 21.3 - Transformando ideias em um modelo de banco de dados
+- [X] 21.4 - Aula ao vivo + Projeto - One For All
 
-### Bloco 22: Introdução ao desenvolvimento Web com Node.js :hourglass_flowing_sand:
+### Bloco 22: Introdução ao desenvolvimento Web com Node.js :heavy_check_mark:
 
-- [ ] 22.1 - Intro - Node.js
-- [ ] 22.1 - Node.js - Um motor JavaScript
-- [ ] 22.2 - Node.js - Fluxo Assíncrono
-- [ ] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
-- [ ] 22.4 - Express - HTTP com Node.js
-- [ ] 22.5 - Express - Middlewares
-- [ ] 22.6 - Projeto - Talker Manager
+- [X] 22.1 - Intro - Node.js
+- [X] 22.1 - Node.js - Um motor JavaScript
+- [X] 22.2 - Node.js - Fluxo Assíncrono
+- [X] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
+- [X] 22.4 - Express - HTTP com Node.js
+- [X] 22.5 - Express - Middlewares
+- [X] 22.6 - Projeto - Talker Manager
 
 ### Bloco 23: Node.js - Camada de Serviço e Arquitetura Rest e Restful :hourglass_flowing_sand:
 
