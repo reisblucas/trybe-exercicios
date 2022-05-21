@@ -9,5 +9,5 @@ app.use('/v1', routes);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log("Listening you I'm, my young padawan!")
+  console.log("Listening you I'm, my young padawan!");
 });

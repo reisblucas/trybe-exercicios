@@ -1,6 +1,6 @@
 const { CEP_REGEX } = require('../helpers/regex');
 
-const cepVerifier = (req, res, next) => {
+const zipCodeVerifier = (req, res, next) => {
   const { cep } = req.params;
 
   if (CEP_REGEX.test(cep)) { return next(); }
@@ -14,4 +14,4 @@ const cepVerifier = (req, res, next) => {
   return res.status(400).json(bad_request);
 }
 
-module.exports = cepVerifier;
+module.exports = zipCodeVerifier;

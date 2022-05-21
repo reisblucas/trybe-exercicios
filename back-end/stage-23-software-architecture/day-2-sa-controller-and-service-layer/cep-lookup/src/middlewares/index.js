@@ -1,5 +1,5 @@
-const cepVerifier = require('./cepVerifier');
+const zipCodeVerifier = require('./zipCodeVerifier');
 
 module.exports = {
-  cepVerifier,
+  zipCodeVerifier,
 }
