@@ -1,0 +1,10 @@
+O prefeito Rafa Martins e seu vice Felipe Nunes estão buscando junto à comunidade, 
+o desenvolvimento de um MVP que mapeie problemas relacionados à cidade Trybe XP. 
+
+Os problemas a serem mapeados envolvem acidentes de trânsito, ocorrências policiais ou de infraestrutura. 
+
+Desta forma, Rafa e Felipe estão solicitando aos grupos selecionados que desenvolvam uma aplicação backend RESTful 
+nos moldes pré-definidos por eles, em que há um banco de dados já criado a ser seguido.
+
+Como regras de negócio, Rafa e Felipe entendem que uma ocorrência futura não pode ser regitrada e 
+que os campos definidos no banco de dados devem ter suas regras respeitadas.
