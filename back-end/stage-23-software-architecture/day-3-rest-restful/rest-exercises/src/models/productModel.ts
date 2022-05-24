@@ -1,15 +1,13 @@
 import connection from "../db/rest-exercises";
+import queryParserTS from "../utils/queryParserTS";
 
-const add = async (name, brand) => {
+const add = async (name: string, brand: string) => {
   try {
-    const [
-      result,
-    ] = await connection.query(
-      'INSERT INTO products (name, brand) VALUES (?, ?);',
-      [name, brand],
-    );
+    const [result] = await connection.query('INSERT INTO products (name, brand) VALUES (?, ?);', [name, brand]);
 
-    return { id: result.insertId, name, brand };
+    const parsedResults = queryParserTS(result);
+
+    return { id: parsedResults.insertId, name, brand };
   } catch (err) {
     console.error(err);
     return process.exit(1);
@@ -26,18 +24,21 @@ const getAll = async () => {
   }
 };
 
-const getById = async (id) => {
+const getById = async (id: number) => {
   try {
     const [result] = await connection.query('SELECT * FROM products WHERE id = ?', [id]);
-    if (!result.length) return null;
-    return result[0];
+
+    const parsedResults = queryParserTS(result);
+
+    if (!parsedResults.length) return null;
+    return parsedResults[0];
   } catch (err) {
     console.error(err);
     return process.exit(1);
   }
 };
 
-const update = async (id, name, brand) => {
+const update = async (id: number, name: string, brand: string) => {
   try {
     const [result] = await connection.query(
       'UPDATE products SET name = ?, brand = ? WHERE id = ?',
@@ -50,7 +51,7 @@ const update = async (id, name, brand) => {
   }
 };
 
-const exclude = async (id) => {
+const exclude = async (id: number) => {
   try {
     const product = await getById(id);
     if (!product) return {};
