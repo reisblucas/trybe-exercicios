@@ -5,6 +5,6 @@ const ocurrencesController = require('./controllers/ocurrencesController');
 //Health Checker controller
 router.use('/healthchecker', require('./controllers/healthchecker'));
 
-router.use('/ocurrences', ocurrencesController);
+router.use('/ocurrences/', ocurrencesController);
 
 module.exports = router;

@@ -1,8 +1,6 @@
 const { getAllOcurrences: getAllOcurrencesModel } = require('../models/ocurrencesModel');
 
-const getAllOcurrencesService = () => {
-  return getAllOcurrencesModel();
-};
+const getAllOcurrencesService = () => getAllOcurrencesModel();
 
 module.exports = {
   getAllOcurrencesService,
