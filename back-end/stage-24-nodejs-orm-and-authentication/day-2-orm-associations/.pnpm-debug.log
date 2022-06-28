@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_PKG_MANIFEST",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json found in /home/neur4l/trybe-exercicios/back-end/stage-24-nodejs-orm-and-authentication/day-2-orm-associations",
+      "code": "ERR_PNPM_NO_PKG_MANIFEST",
+      "stack": "pnpm: No package.json found in /home/neur4l/trybe-exercicios/back-end/stage-24-nodejs-orm-and-authentication/day-2-orm-associations\n    at handler (/home/neur4l/.local/share/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpm.cjs:121690:17)\n    at async /home/neur4l/.local/share/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpm.cjs:182795:21\n    at async run (/home/neur4l/.local/share/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpm.cjs:182769:34)\n    at async runPnpm (/home/neur4l/.local/share/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpm.cjs:182987:5)\n    at async /home/neur4l/.local/share/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpm.cjs:182979:7"
+    }
+  }
+}
