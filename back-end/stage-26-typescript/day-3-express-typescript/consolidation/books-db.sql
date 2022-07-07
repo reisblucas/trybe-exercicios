@@ -1,3 +1,4 @@
+DROP SCHEMA IF EXISTS books_api;
 CREATE DATABASE IF NOT EXISTS books_api;
 
 USE books_api;

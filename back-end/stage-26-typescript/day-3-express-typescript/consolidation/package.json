@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "pnpm build && node ./dist/index.js",
-    "dev": "tsnd --respawn --transpile-only src/index.ts",
-    "build": "tsc"
+    "dev": "pnpm db:up && tsnd --respawn --transpile-only index.ts",
+    "build": "tsc",
+    "db:up": "bash up-db.sh"
   },
   "keywords": [],
   "author": "",

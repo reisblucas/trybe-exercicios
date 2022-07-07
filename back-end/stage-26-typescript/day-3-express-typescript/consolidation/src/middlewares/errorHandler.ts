@@ -1,5 +1,5 @@
 import express, { Request, Response, NextFunction } from 'express';
-import HttpException from 'shared/http.exception';
+import HttpException from '../shared/http.exception';
 
 const httpErrorHandler = (err: Error, req: Request, res: Response, next: NextFunction) => {
   const { _status, message } = err as HttpException;

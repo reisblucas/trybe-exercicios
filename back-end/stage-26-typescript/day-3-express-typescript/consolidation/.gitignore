@@ -1,0 +1,6 @@
+env
+node_modules
+
+# shell scripts
+my.credentials.sh
+up-db.sh
