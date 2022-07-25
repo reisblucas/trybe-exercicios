@@ -180,45 +180,45 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 22.5 - Express - Middlewares
 - [X] 22.6 - Projeto - Talker Manager
 
-### Bloco 23: Node.js - Camada de Serviço e Arquitetura Rest e Restful :hourglass_flowing_sand:
+### Bloco 23: Node.js - Camada de Serviço e Arquitetura Rest e Restful :heavy_check_mark:
 
-- [ ] 23.1 - Introdução - Arquitetura de Software
-- [ ] 23.1 - Arquitetura de Software - Camada de Model
-- [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 23.3 - Arquitetura Web - Rest e Restful
-- [ ] 23.4 - Arquitetura de Software - Testando as Camadas
-- [ ] 23.5 - Projeto - Store Manager
+- [X] 23.1 - Introdução - Arquitetura de Software
+- [X] 23.1 - Arquitetura de Software - Camada de Model
+- [X] 23.2 - Arquitetura de Software - Camada de Controller e Service
+- [X] 23.3 - Arquitetura Web - Rest e Restful
+- [X] 23.4 - Arquitetura de Software - Testando as Camadas
+- [X] 23.5 - Projeto - Store Manager
 
-### Bloco 24: Node.js - ORM e Autenticação :hourglass_flowing_sand:
+### Bloco 24: Node.js - ORM e Autenticação :heavy_check_mark:
 
-- [ ] 24.1 - Introdução - Node.js: ORM e Autenticação
-- [ ] 24.1 - ORM - Interface da Aplicação com o Banco de Dados
-- [ ] 24.2 - ORM - Associations
-- [ ] 24.3 - JWT (JSON Web Token)
-- [ ] 24.4 - Projeto - API de Blogs
+- [X] 24.1 - Introdução - Node.js: ORM e Autenticação
+- [X] 24.1 - ORM - Interface da Aplicação com o Banco de Dados
+- [X] 24.2 - ORM - Associations
+- [X] 24.3 - JWT (JSON Web Token)
+- [X] 24.4 - Projeto - API de Blogs
 
-### Bloco 25: Deployment :hourglass_flowing_sand:
+### Bloco 25: Deployment :heavy_check_mark:
 
-- [ ] 25.1 - Introdução - Deploy
-- [ ] 25.2 - Infraestrutura - Deploy com Heroku
-- [ ] 25.3 - Deploy Docker & Heroku
-- [ ] 25.4 - Projeto - Stranger Things
+- [X] 25.1 - Introdução - Deploy
+- [X] 25.2 - Infraestrutura - Deploy com Heroku
+- [X] 25.3 - Deploy Docker & Heroku
+- [X] 25.4 - Projeto - Stranger Things
 
-### Bloco 26: TypeScript :hourglass_flowing_sand:
+### Bloco 26: TypeScript :heavy_check_mark:
 
-- [ ] 26.1 - Introdução ao TypeScript
-- [ ] 26.2 - Tipagem Estática e Generics
-- [ ] 26.3 - Express com TypeScript
-- [ ] 26.4 - Projeto - Trybe Smith
+- [X] 26.1 - Introdução ao TypeScript
+- [X] 26.2 - Tipagem Estática e Generics
+- [X] 26.3 - Express com TypeScript
+- [X] 26.4 - Projeto - Trybe Smith
 
-### Bloco 27: Programação Orientada a Objetos(POO) e SOLID :hourglass_flowing_sand:
+### Bloco 27: Programação Orientada a Objetos(POO) e SOLID :heavy_check_mark:
 
-- [ ] 27.1 - Introdução à Orientação a Objetos
-- [ ] 27.2 - Herança e Interfaces
-- [ ] 27.3 - Polimorfismo
-- [ ] 27.4 - SOLID - Introdução
-- [ ] 27.5 - SOLID - Cotinuação
-- [ ] 27.6 - Projeto - Trybers and Dragons
+- [X] 27.1 - Introdução à Orientação a Objetos
+- [X] 27.2 - Herança e Interfaces
+- [X] 27.3 - Polimorfismo
+- [X] 27.4 - SOLID - Introdução
+- [X] 27.5 - SOLID - Cotinuação
+- [X] 27.6 - Projeto - Trybers and Dragons
 
 ### Bloco 28: Projeto - TFC - Trybe Futebol Clube :hourglass_flowing_sand:
 
