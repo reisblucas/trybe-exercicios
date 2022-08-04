@@ -1,0 +1,25 @@
+{
+  "name": "trybe-exercicios",
+  "version": "1.0.0",
+  "description": "Este repositorio contem todas as atividades de aprendizagem desenvolvidas por _[Lucas Barbosa dos Reis](https://www.linkedin.com/in/reisblucas/)_ enquanto estudava na _[Trybe](https://www.betrybe.com/)_.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byneur4l/trybe-exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byneur4l/trybe-exercicios/issues"
+  },
+  "homepage": "https://github.com/byneur4l/trybe-exercicios#readme",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
