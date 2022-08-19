@@ -220,23 +220,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 27.5 - SOLID - Cotinuação
 - [X] 27.6 - Projeto - Trybers and Dragons
 
-### Bloco 28: Projeto - TFC - Trybe Futebol Clube :hourglass_flowing_sand:
+### Bloco 28: Projeto - TFC - Trybe Futebol Clube :heavy_check_mark:
 
-- [ ] 28.1 - Projeto - TFC - Trybe Futebol Clube
+- [X] 28.1 - Projeto - TFC - Trybe Futebol Clube
 
-### Bloco 29: Introdução ao MongoDB :hourglass_flowing_sand:
+### Bloco 29: Introdução ao MongoDB :heavy_check_mark:
 
-- [ ] 29.1 - Introdução - NoSQL
-- [ ] 29.1 - MongoDB - Introdução
-- [ ] 29.2 - Filter Operators
-- [ ] 29.3 - Projeto - Data Flights
+- [X] 29.1 - Introdução - NoSQL
+- [X] 29.1 - MongoDB - Introdução
+- [X] 29.2 - Filter Operators
+- [X] 29.3 - Projeto - Data Flights
 
-### Bloco 30: MongoDB - Updates Simples e Complexos :hourglass_flowing_sand:
+### Bloco 30: MongoDB - Updates Simples e Complexos :heavy_check_mark:
 
-- [ ] 30.1 - Updates Simples
-- [ ] 30.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 30.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 30.4 - Projeto - Commerce
+- [X] 30.1 - Updates Simples
+- [X] 30.2 - Updates Complexos - Arrays - Parte 1
+- [X] 30.3 - Updates Complexos - Arrays - Parte 2
+- [X] 30.4 - Projeto - Commerce
 
 ### Bloco 31: MasterClass - VPS, CI/CD :hourglass_flowing_sand:
 
