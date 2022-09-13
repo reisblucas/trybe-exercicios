@@ -1,7 +1,7 @@
 from typing import List
 
 
-def arithmetic_avg(l=list) -> float:
+def arithmetic_avg(l: list) -> float:
     """..."""
     return sum(l) / len(l)
 
