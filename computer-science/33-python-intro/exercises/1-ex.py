@@ -1,7 +1,8 @@
 from queue import Empty
 
 
-def maxNumber(*a):
+def max_number(*a):
+    """Test"""
     new_list = [num for num in a if isinstance(num, int)]
 
     if len(new_list):
@@ -9,6 +10,7 @@ def maxNumber(*a):
 
     return "Does not have any number in the list or list is empty."
 
-print(maxNumber(15, 16, 17))
-print(maxNumber("a", "b", 1))
-print(maxNumber("a", "b", "c"))
+
+print(max_number(15, 16, 17))
+print(max_number("a", "b", 1))
+print(max_number("a", "b", "c"))
