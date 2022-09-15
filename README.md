@@ -1,4 +1,6 @@
-# Trybe
+<div align="center">
+  <h1>Trybe</h1>
+</div>
 
 Este repositorio contem todas as atividades de aprendizagem desenvolvidas por _[Lucas Barbosa dos Reis](https://www.linkedin.com/in/reisblucas/)_ enquanto estudava na _[Trybe](https://www.betrybe.com/)_.
 
